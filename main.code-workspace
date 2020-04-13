@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		// Format configs
+		"editor.formatOnPaste": false,
+		"editor.formatOnSave": false,
+		"editor.formatOnType": false,
+		// Render configs
+		"editor.renderControlCharacters": true,
+		"editor.renderLineHighlight": "all",
+		"editor.renderWhitespace": "all",
+		// ESLint(2.1.2) configs
+		"eslint.run": "onSave",
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"vue"
+		],
+		"eslint.packageManager": "npm",
+		"eslint.format.enable": true,
+		"eslint.alwaysShowStatus": false,
+		// Vetur(0.24.0) configs
+		"vetur.experimental.templateInterpolationService": true,
+		"vetur.dev.logLevel": "DEBUG",
+		"[javascript]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+			"editor.formatOnSave": false,
+			"editor.codeActionsOnSave": {
+				"source.fixAll.eslint": false
+			}
+		},
+		"[vue]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+			"editor.formatOnSave": false,
+			"editor.codeActionsOnSave": {
+				"source.fixAll.eslint": false
+			}
+		},
+	}
+}
