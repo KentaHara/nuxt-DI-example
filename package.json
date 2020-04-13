@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-di-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KentaHara/nuxt-DI-example.git"
+  },
+  "keywords": [
+    "nuxt",
+    "DI",
+    "example"
+  ],
+  "author": "KentaHara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KentaHara/nuxt-DI-example/issues"
+  },
+  "homepage": "https://github.com/KentaHara/nuxt-DI-example#readme"
+}
