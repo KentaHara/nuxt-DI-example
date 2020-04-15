@@ -1,6 +1,6 @@
 import TodoReadRepositoryInterface from '../../domains/dataAccessInterfaces/TodoReadRepositoryInterface'
 import Todo from '../../domains/entities/Todo'
-import { TodoStatus } from '../../domains/entities/valueObject/TodoStatus'
+import { TodoStatus } from '../../../types/Todo'
 
 export default class TodoReadRepository implements TodoReadRepositoryInterface {
   getAllTodo (): Todo[] {

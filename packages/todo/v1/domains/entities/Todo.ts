@@ -1,10 +1,10 @@
-import { TodoStatus } from './valueObject/TodoStatus'
+import { TodoTitle, TodoStatus } from '../../../types/Todo'
 
 export default class Todo {
-  title: string
+  title: TodoTitle
   status: TodoStatus
 
-  constructor (title: string, status: TodoStatus) {
+  constructor (title: TodoTitle, status: TodoStatus) {
     this.title = title
     this.status = status
   }

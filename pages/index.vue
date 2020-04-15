@@ -10,13 +10,9 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Todo from '../packages/todo/v1/domains/entities/Todo'
-import Logo from '~/components/Logo.vue'
+import { Todo } from '@model/Todo'
 
 export default Vue.extend({
-  components: {
-    Logo
-  },
   data (): {todos: Todo[]} {
     return {
       todos: []

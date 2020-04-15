@@ -1,3 +1,5 @@
+export type TodoTitle = String
+
 export const TodoStatus = {
   NotReady: 3,
   Ready: 5,
@@ -6,3 +8,8 @@ export const TodoStatus = {
 } as const
 
 export type TodoStatus = typeof TodoStatus[keyof typeof TodoStatus]
+
+export type Todo = {
+  title: TodoTitle,
+  status: TodoStatus,
+}
